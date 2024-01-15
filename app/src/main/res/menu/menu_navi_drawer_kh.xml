@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_navi_drawer_kh_trangChu"
+        android:icon="@drawable/home_navi_icon"
+        android:title="@string/trang_ch" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_thongBao"
+        android:icon="@drawable/noti_navi_icon"
+        android:title="@string/th_ng_b_o" />
+
+    <item
+        android:icon="@drawable/danh_muc_icon"
+        android:title="@string/danh_m_c_s_n_ph_m" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_AoKaki"
+        android:title="Áo Kaki" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_AoThun"
+        android:title="Áo Thun" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_AoHoodie"
+        android:title="Áo Hoodie" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_AoKhoacGio"
+        android:title="Áo Khoác Gió" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_QuanBo"
+        android:title="Quần bò" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_QuanVai"
+        android:title="Quần Vải" />
+
+    <item
+        android:id="@+id/item_navi_drawer_kh_gioHang"
+        android:icon="@drawable/gio_hang_navi_icon"
+        android:title="Giỏ Hàng" />
+    <item
+        android:id="@+id/item_navi_drawer_kh_DH_Damua"
+        android:icon="@drawable/don_hang_navi_icon"
+        android:title="Đơn hàng đã mua" />
+
+<!--    <item-->
+<!--        android:id="@+id/item_navi_drawer_kh_vi"-->
+<!--        android:icon="@drawable/icon_naptien"-->
+<!--        android:title="Ví FPT pay " />-->
+
+<!--    <item-->
+<!--        android:id="@+id/item_navi_drawer_kh_lienHe"-->
+<!--        android:icon="@drawable/lien_he_icon"-->
+<!--        android:title="@string/li_n_h" />-->
+
+    <item
+        android:id="@+id/item_navi_drawer_admin_Logout"
+        android:icon="@drawable/logout_icon"
+        android:title="@string/ng_xu_t" />
+</menu>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="#29EABD">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_Navi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton_Back_Toolbar"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:background="#29EABD"
+                android:src="@drawable/arrow_back_icon"
+                app:tint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:gravity="center"
+                android:text="@string/info"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end"
+                android:orientation="horizontal">
+
+                <!--                <ImageButton-->
+                <!--                    android:id="@+id/imageButton_Home"-->
+                <!--                    android:background="#ECDBCB"-->
+                <!--                    android:src="@drawable/home_navi_icon"-->
+                <!--                    android:layout_width="60dp"-->
+                <!--                    android:layout_height="match_parent"-->
+                <!--                    app:tint="#000000" />-->
+
+                <ImageButton
+                    android:id="@+id/imageButton_Notifi"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#29EABD"
+                    android:src="@drawable/noti_navi_icon"
+                    app:tint="#000000" />
+
+                <ImageButton
+                    android:id="@+id/imageButton_GioHang"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="10dp"
+                    android:background="#29EABD"
+                    android:src="@drawable/gio_hang_navi_icon"
+                    app:tint="#000000" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>
